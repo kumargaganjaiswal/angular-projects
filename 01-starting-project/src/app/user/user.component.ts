@@ -1,14 +1,15 @@
 import { Component, computed, input, Input, output, signal } from '@angular/core';
+import { IUser } from './user.model';
 
 //import { DUMMY_USERS } from '../dummy-users';
 
 //const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
 
-type user = {
-  id: string;
-  avatar: string;
-  name: string;
-}
+// type user = {
+//   id: string;
+//   avatar: string;
+//   name: string;
+// }
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -18,7 +19,8 @@ type user = {
 })
 export class UserComponent {
 
-  @Input({ required: true }) user!: user;
+  @Input({ required: true }) user!: IUser;
+  @Input({ required: true }) isSelected = false;
 
   // id = input.required<string>();
   // avatar = input.required<string>();

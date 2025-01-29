@@ -1,1 +1,8 @@
-<p>task works!</p>
+<article>
+    <h2>Tasks</h2>
+    <time>{{userTask().dueDate}}</time>
+    <p>{{userTask().summary}}</p>
+    <p class="actions">
+        <button (click)="onCompledTask()">Complete</button>
+    </p>
+</article>

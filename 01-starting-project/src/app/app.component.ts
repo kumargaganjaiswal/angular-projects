@@ -11,14 +11,14 @@ import { TasksComponent } from './tasks/tasks.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  selectedId: string = '';
+  selectedUserId: string = '';
   users = DUMMY_USERS;
 
   get selectedUser() {
-    return this.users.find((user) => user.id === this.selectedId)?.name || '';
+    return this.users.find((user) => user.id === this.selectedUserId);
   }
 
   onSelectedUser(id: string) {
-    this.selectedId = id;
+    this.selectedUserId = id;
   }
 }

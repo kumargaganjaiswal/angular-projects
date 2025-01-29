@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, input, Output } from '@angular/core';
+import { DUMMYTASKS } from '../../dummy-tasks';
+
+type Task = typeof DUMMYTASKS[0];
 
 @Component({
   selector: 'app-task',
@@ -8,5 +11,10 @@ import { Component } from '@angular/core';
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
+  userTask = input.required<Task>();
+  @Output() completedTask = new EventEmitter<string>();
 
+  onCompledTask() {
+    this.completedTask.emit(this.userTask().id);
+  }
 }
