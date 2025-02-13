@@ -1,0 +1,16 @@
+<header class="quiz-header">
+  <h1>Quiz App</h1>
+</header>
+<main class="center-content">
+  @if(!isQuizStarted) {
+  <app-quiz-start (startQuizEvent)="onStartQuizApp($event)"></app-quiz-start>
+  } @else {
+  <app-quiz-question [question]="currentQuestion" (nextQuestionEvent)="onNextQuestion($event)"
+    (currentQuestionResultEvent)="onGetAnswer($event)"></app-quiz-question>
+  }
+  @if (isShowResult) {
+  <app-quiz-result [totalQuestions]="calculateTotalQuestions"
+    [totalCorrectAnswers]="calculateCorrectAnswers"></app-quiz-result>
+  }
+
+</main>

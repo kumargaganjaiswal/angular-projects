@@ -1,0 +1,14 @@
+<div class="question-card">
+    <h2>Question {{question.questionid}}</h2>
+    <p>{{question.question}}</p>
+    <form class="options">
+        @for (option of question.options; track $index) {
+        <label>
+            <input type="radio" name="option" [value]="option" (change)="onRadioChange($event)"
+                [checked]="selectedOption === option"> {{option}}
+        </label>
+        }
+
+    </form>
+    <button [disabled]="!isAttempted" (click)="onNextQuestion()" class="next-btn">Next</button>
+</div>

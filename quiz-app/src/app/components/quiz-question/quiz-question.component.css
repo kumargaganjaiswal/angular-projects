@@ -1,0 +1,43 @@
+.question-card {
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+}
+
+.question-card h2 {
+    margin-top: 0;
+}
+
+.options label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.next-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    box-shadow: 0 4px #2e7d32;
+    transition: background-color 0.3s, transform 0.3s;
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+}
+
+.next-btn:hover {
+    background-color: #45a049;
+}
+
+.next-btn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}

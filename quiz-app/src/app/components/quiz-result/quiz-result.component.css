@@ -1,0 +1,20 @@
+ .summary {
+     margin-top: 20px;
+     text-align: center;
+     font-size: 1.2em;
+ }
+
+ button {
+     padding: 10px 20px;
+     background-color: #4CAF50;
+     /* Green */
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 5px;
+ }

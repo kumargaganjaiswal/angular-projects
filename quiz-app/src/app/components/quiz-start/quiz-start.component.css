@@ -1,0 +1,21 @@
+.start-quiz-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    box-shadow: 0 4px #2e7d32;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 50px;
+}
+
+.start-quiz-btn:hover {
+    background-color: #45a049;
+}
+
+.start-quiz-btn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
