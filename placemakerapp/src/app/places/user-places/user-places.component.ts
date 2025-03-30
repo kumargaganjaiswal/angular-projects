@@ -19,7 +19,8 @@ export class UserPlacesComponent implements OnInit {
   private destroyRef = inject(DestroyRef);
   placeService = inject(PlacesService);
   error = signal<string>('');
-  places = signal<Place[]>(this.placeService.loadedUserPlaces());
+  places = this.placeService.loadedUserPlaces();
+
   ngOnInit(): void {
     this.isFetching.set(true);
     const clientRequestSubscription = this.placeService.loadUserPlaces()
