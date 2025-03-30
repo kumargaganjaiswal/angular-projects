@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 
 app.get("/places", async (req, res) => {
   await new Promise((resolve) => setTimeout(resolve, 3000));
-  res.status(500).json({ message: 'Server not found...' });
+  // res.status(500).json({ message: 'Server not found...' });
 
   const fileContent = await fs.readFile("./data/places.json");
 
