@@ -11,22 +11,29 @@ export class PlacesService {
   httpClient = inject(HttpClient);
   private userPlaces = signal<Place[]>([]);
 
-  loadedUserPlaces = this.userPlaces.asReadonly();
+  loadedUserPlaces() {
+    return this.userPlaces;
+  }
 
   loadAvailablePlaces() {
     return this.fetchPlaces('http://localhost:3000/places', 'Error 500');
   }
 
   loadUserPlaces() {
-    return this.fetchPlaces('http://localhost:3000/user-places', 'Error 500').pipe(
-      tap({
-        next: (userPlaces) => this.userPlaces.set(userPlaces)
-      })
-    )
+    return this.fetchPlaces('http://localhost:3000/user-places', 'Error 500')
+      .pipe(
+        tap({
+          next: (userPlaces) => this.userPlaces.set(userPlaces)
+        })
+      );
   }
 
   addPlaceToUserPlaces(place: Place) {
-    this.userPlaces.update(prevPlace => [...prevPlace, place]);
+    const prevPlaces = this.userPlaces();
+    if (!prevPlaces.some((p) => p.id === place.id)) {
+      this.userPlaces.set([...prevPlaces, place]);
+    }
+
     return this.httpClient.put('http://localhost:3000/user-places/', { placeId: place.id });
   }
 
