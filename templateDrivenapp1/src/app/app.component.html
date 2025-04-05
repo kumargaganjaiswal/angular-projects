@@ -1,1 +1,13 @@
-<ag-grid-angular [rowData]="rowData" [columnDefs]="colDefs" />
+
+
+  <ag-grid-angular style="height: 400px; width: 100%;"
+    [theme]="theme"
+    [rowData]="rowData"
+    [columnDefs]="colDefs"
+    [defaultColDef]="defaultColDef"
+    rowSelection="multiple"
+    [pagination]="pagination"
+    [paginationPageSize]="paginationPageSize"
+    [paginationPageSizeSelector]="paginationPageSizeSelector"
+     >
+  </ag-grid-angular>

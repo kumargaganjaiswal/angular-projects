@@ -3,8 +3,15 @@ import { ObjectsService } from './services/objects.service';
 import { IObject } from './models/object.model';
 import { AgGridModule } from 'ag-grid-angular';
 
+
+
 import { AgGridAngular } from 'ag-grid-angular'; // Angular Data Grid Component
 import type { ColDef } from 'ag-grid-community';
+import { ButtonComponent } from './button/button.component';
+import { themeBalham, iconSetMaterial, themeMaterial, themeAlpine, themeQuartz, iconOverrides } from 'ag-grid-community';
+
+
+
 
 
 @Component({
@@ -15,54 +22,79 @@ import type { ColDef } from 'ag-grid-community';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  rowData = [
-    { name: 'John', age: 25, city: 'New York' },
-    { name: 'Jane', age: 30, city: 'London' },
-    { name: 'Jack', age: 35, city: 'Paris' }
+  fontAwesomeIcons = iconOverrides({
+    type: 'font',
+    family: 'Font Awesome 5 Free',
+    cssImports: ['https://use.fontawesome.com/releases/v5.6.3/css/all.css'],
+    weight: 'bold', // Font Awesome requires bold font weight
+    icons: {
+      // use font codes documented by Font Awesome e.g. '\u{f062}' == arrow-up
+      asc: '\u{f062}',
+      desc: '\u{f063}',
+    },
+  });
+  public theme = themeQuartz.withParams({
+    spacing: 12,
+    accentColor: 'red',
+  }).withPart(this.fontAwesomeIcons);
+
+
+  pagination = true;
+  paginationPageSize = 10;
+  paginationPageSizeSelector = [10, 20]
+  rowData: IObject[] = []
+  rowSelection = { type: 'multiple' };
+
+  defaultColDef: ColDef = {
+    flex: 1,
+    filter: true,
+    floatingFilter: true
+  }
+
+
+  colDefs: ColDef[] = [
+    {
+      field: "button",
+      headerName: "Button",
+      cellRenderer: ButtonComponent
+    },
+
+    {
+      field: "id", headerName: "ID",
+      checkboxSelection: true
+
+
+    },
+    {
+      field: "name", headerName: "Name",
+      cellEditor: "agSelectCellEditor",
+      cellEditorParams: { values: ['Google', 'Apple'] }
+    },
+    {
+      field: "generation",
+      valueGetter: p => p.data?.data?.generation ?? 'No-Data'
+    },
+    {
+      field: "price",
+      valueGetter: p => p.data?.price ?? 'No-Data'
+    },
+    {
+      field: "capacity",
+      valueGetter: p => p.data?.data?.capacity ?? 'No-Data'
+    },
+    {
+      field: "color",
+      valueGetter: p => p.data?.data?.color ?? 'No-Data'
+    }
   ];
 
-  colDefs = [
-    { field: 'name', headerName: 'Name' },
-    { field: 'age', headerName: 'Age' },
-    { field: 'city', headerName: 'City' }
-  ];
-  /* rowData: IObject[] = [
-     {
-       id: "1",
-       name: "Object 1",
-       data: {
-         generation: "Gen 1",
-         price: "100",
-         capacity: "1TB",
-         color: "Red"
-       },
-       createdAt: new Date("2023-01-01")
-     },
-     {
-       id: "2",
-       name: "Object 2",
-       data: {
-         generation: "Gen 2",
-         price: "200",
-         capacity: "2TB",
-         color: "Blue"
-       },
-       createdAt: new Date("2023-02-01")
-     }
-   ];
-   colDefs: ColDef[] = [
-     { field: "id", headerName: "ID" },
-     { field: "name", headerName: "Name" },
-     { field: "createdAt", headerName: "Created At" },
-   ];
-  
   objectService = inject(ObjectsService);
   ngOnInit(): void {
     this.objectService.getAllObjects().subscribe((data) => {
       this.rowData = data;
-      console.log(this.rowData);
     });
   }
-  */
+
+
 
 }

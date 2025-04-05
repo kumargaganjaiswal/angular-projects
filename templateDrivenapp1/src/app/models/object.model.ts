@@ -1,8 +1,7 @@
 export interface IObject {
     id: string,
     name: string,
-    data: IData,
-    createdAt: Date
+    data: IData
 }
 
 export interface IData {
