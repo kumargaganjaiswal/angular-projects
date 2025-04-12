@@ -1,3 +1,8 @@
-<form>
-  <input type="text" name="name">
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <input type="text" name="name" [(ngModel)]="model.name" required #name="ngModel">
+  <button type="submit">Submit</button>
+
+  @if(name.invalid && (name.dirty || name.touched)) {
+    <p>Name is required</p>
+  }
 </form>
