@@ -1,0 +1,45 @@
+<div class="form-container">
+    <form [formGroup]="applicationForm" (ngSubmit)="onSubmit()">
+        <h2>Address Form</h2>
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" formControlName="firstName" />
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" formControlName="lastName" />
+        </div>
+
+        <div class="form-group" formGroupName="address">
+            <h3>Address</h3>
+            <div class="form-group">
+                <label for="street">Street</label>
+                <input type="text" id="street" name="street" formControlName="street" />
+            </div>
+
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" formControlName="city" />
+            </div>
+
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" formControlName="state" />
+            </div>
+
+            <div class="form-group">
+                <label for="zip">ZIP Code</label>
+                <input type="text" id="zip" name="zip" formControlName="zip" />
+            </div>
+        </div>
+        <div class="button-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button onclick="alert('Cancel clicked!')">Cancel</button>
+        </div>
+
+        {{applicationForm | json}}
+    </form>
+
+</div>
