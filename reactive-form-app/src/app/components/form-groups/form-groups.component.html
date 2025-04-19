@@ -4,6 +4,8 @@
         <div class="form-group">
             <label for="firstName">First Name</label>
             <input type="text" id="firstName" name="firstName" formControlName="firstName" />
+            <span *ngIf="applicationForm.get('firstName')?.errors?.['required']">Email is required</span>
+            <span *ngIf="applicationForm.get('firstName')?.errors?.['minLength(10)']">Email should has min 100 char</span>
         </div>
 
         <div class="form-group">
@@ -12,7 +14,7 @@
         </div>
 
         <div class="form-group" formGroupName="address">
-            <h3>Address</h3>
+            <h3>Address</h3>s
             <div class="form-group">
                 <label for="street">Street</label>
                 <input type="text" id="street" name="street" formControlName="street" />
@@ -39,7 +41,9 @@
             <button onclick="alert('Cancel clicked!')">Cancel</button>
         </div>
 
-        {{applicationForm.controls}}
+    
+
+    
     </form>
 
 </div>

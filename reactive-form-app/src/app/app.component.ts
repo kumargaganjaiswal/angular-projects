@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { FormGroupsComponent } from "./components/form-groups/form-groups.component";
+
+import { FormgroupStudentFromComponent } from './components/formgroup-student-from/formgroup-student-from.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FormGroupsComponent],
+  imports: [FormgroupStudentFromComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

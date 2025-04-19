@@ -1,0 +1,28 @@
+<form [formGroup]="simpleContact" (ngSubmit)="onSubmit()" >
+    <h2>Simple Contact Form</h2>
+    <br>
+      <input type="text" placeholder="Name" formControlName="name">
+      <div *ngIf="simpleContact.get('name')?.invalid && simpleContact.get('name')?.touched">
+            <div *ngIf="simpleContact.get('name')?.errors?.['required']" >Name is required</div>
+            <div *ngIf="simpleContact.get('name')?.errors?.['minlength']">Min Length required</div>       
+        </div>
+    <br>
+    <br>
+    <input type="text" placeholder="Email" formControlName="email">
+    <div *ngIf="simpleContact.get('email')?.invalid && simpleContact.get('email')?.touched">
+        <div *ngIf="simpleContact.get('email')?.errors?.['required']">Email required</div>    
+    </div>
+    <br>
+    <br>
+    <input type="text" placeholder="Phone Number" formControlName="phone">
+        <div *ngIf="simpleContact.get('phone')?.invalid && simpleContact.get('phone')?.touched">
+             <div *ngIf="simpleContact.get('phone')?.errors?.['required']">Phone number required</div>   
+        </div>
+    <br>
+    <br>
+
+    <input type="text" placeholder="Your Message" formControlName="messages">
+    <br>
+    <br>
+    <button type="submit" [disabled]="simpleContact.invalid">Submit</button>
+</form>

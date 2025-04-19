@@ -1,0 +1,56 @@
+<h2>Student Registration Form</h2>
+<form [formGroup]="registration" (ngSubmit)="onSubmit()" >
+    <!-- General Details Section -->
+    <fieldset>
+        <legend>General Details</legend>
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" formControlName="studentName"  />
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" formControlName="studentAge" />
+        </div>
+
+        <div class="form-group">
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" formControlName="studentContact" />
+        </div>
+    </fieldset>
+
+    <!-- Address Section -->
+    <fieldset>
+        <legend>Address</legend>
+
+        <div class="form-group">
+            <label for="street">Street:</label>
+            <input type="text" id="street" formControlName="addressStreet" />
+        </div>
+
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" formControlName="addressLocation" />
+        </div>
+
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" formControlName="addressCity" />
+        </div>
+
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" formControlName="addressState" />
+        </div>
+
+        <div class="form-group">
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" formControlName="addressZip" />
+        </div>
+    </fieldset>
+
+    <div style="text-align: center;">
+        <button type="submit" [disabled]="registration.invalid">Register</button>
+    </div>
+</form>

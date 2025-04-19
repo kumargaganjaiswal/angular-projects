@@ -1,18 +1,20 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { CommonModule, JsonPipe } from '@angular/common';
+import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { CommonModule, JsonPipe, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-form-groups',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [ReactiveFormsModule, CommonModule, NgIf],
   templateUrl: './form-groups.component.html',
   styleUrl: './form-groups.component.css'
 })
 export class FormGroupsComponent {
 
   applicationForm = new FormGroup({
-    firstName: new FormControl(''),
+    firstName: new FormControl('', {
+      validators: [Validators.required, Validators.minLength(10)]
+    }),
     lastName: new FormControl(''),
     address: new FormGroup({
       street: new FormControl(''),
@@ -22,8 +24,21 @@ export class FormGroupsComponent {
     })
   });
 
+  get firstNameInvalid() {
+    console.log('firstNameInvalid')
+    return (this.applicationForm.controls.firstName.touched &&
+      this.applicationForm.controls.firstName.dirty &&
+      this.applicationForm.controls.firstName.invalid)
+  }
+
+  get lastNameInvalid() {
+    return (this.applicationForm.controls.lastName.touched &&
+      this.applicationForm.controls.lastName.dirty &&
+      this.applicationForm.controls.lastName.invalid)
+  }
+
   onSubmit() {
-    console.log(this.applicationForm);
+    console.log(this.applicationForm.value);
   }
 
 
