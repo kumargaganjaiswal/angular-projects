@@ -1,18 +1,14 @@
 import { Component } from '@angular/core';
-
-import { RadioButtonComponent } from "./components/radio-button/radio-button.component";
+import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RadioButtonComponent],
+  imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-
-
-
-
-
+  title = 'rountingdemo1';
 }

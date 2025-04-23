@@ -1,0 +1,43 @@
+<form [formGroup]="contacts" (ngSubmit)="onSubmit()">
+    <span *ngFor="let option of contactOptions">
+        <input type="radio" formControlName="contact"  [value]="option.value">{{option.key}}
+    </span>
+    <button type="submit">Submit</button>
+</form>
+
+
+
+<form [formGroup]="addresses" (ngSubmit)="onSubmitAddress()">
+    <select formControlName="address">
+        <option *ngFor="let addressType of addressTypes" [value]="addressType.value">
+            {{addressType.title}}
+        </option>
+    </select>
+    <br>
+        <br>
+    <button type="submit">Submit Address</button>
+</form>
+
+<form [formGroup]="skillsGroup" (ngSubmit)="onSubmitCheckBox()">
+    <div formArrayName="skills">
+        <div *ngFor="let skill of skillsData; let i = index">
+            <label>
+                <input type="checkbox" [formControlName]="i" />
+                {{ skill }}
+            </label>
+        </div>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+<form [formGroup]="simpleSkillGroup" (ngSubmit)="onSubmitCheckBox1()">
+    <div *ngFor="let skill of skillsData">
+        <label>
+            <input type="checkbox" [value]="skill" (change)="onCheckboxChange($event)" />
+            {{ skill }}
+        </label>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
