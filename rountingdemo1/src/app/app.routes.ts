@@ -18,8 +18,10 @@ export const routes: Routes = [
             {
                 path: 'component3',
                 component: MyComponent3Component
-            }
-        ]
+            }],
+        data: {
+            message: 'Hello World!'
+        }
     }, {
         path: 'component2',
         component: MyComponent2Component

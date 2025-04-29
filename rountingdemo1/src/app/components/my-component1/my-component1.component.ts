@@ -10,11 +10,13 @@ import { ActivatedRoute, RouterOutlet } from '@angular/router';
 })
 export class MyComponent1Component implements OnInit {
   userId = input.required<string>();
+  message = input.required<string>();
 
   avtivatedRoute = inject(ActivatedRoute);
   constructor() { }
 
   ngOnInit() {
+    console.log('Data: ' + this.message());
     // // console.log(this.userId());
     this.avtivatedRoute.paramMap.subscribe({
       next: (paramMap) =>
