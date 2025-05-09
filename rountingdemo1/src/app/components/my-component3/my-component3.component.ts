@@ -1,5 +1,5 @@
 import { Component, DestroyRef, inject, input, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, ActivatedRouteSnapshot, ResolveFn, Router, RouterStateSnapshot } from '@angular/router';
 
 @Component({
   selector: 'app-my-component3',
@@ -12,6 +12,8 @@ export class MyComponent3Component implements OnInit {
   router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
   destroyRef = inject(DestroyRef);
+
+  myWelcome = input.required<string>();
   constructor() { }
 
   ngOnInit() {
@@ -42,4 +44,16 @@ export class MyComponent3Component implements OnInit {
     });
   }
 
+}
+
+export const resolverName: ResolveFn<string> = (
+  activatedRoute: ActivatedRouteSnapshot,
+  routerState: RouterStateSnapshot
+) => {
+  return "Hi I'm Arun Kumar...";
+}
+
+export const resolveTitle: ResolveFn<string> = (activatedRoute: ActivatedRouteSnapshot,
+  routerState: RouterStateSnapshot) => {
+  return resolverName(activatedRoute, routerState) + '\'s tasks'
 }

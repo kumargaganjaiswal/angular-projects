@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { MyComponent1Component } from './components/my-component1/my-component1.component';
 import { MyComponent2Component } from './components/my-component2/my-component2.component';
-import { MyComponent3Component } from './components/my-component3/my-component3.component';
+import { MyComponent3Component, resolverName, resolveTitle } from './components/my-component3/my-component3.component';
 import { NotaskComponent } from './components/notask/notask.component';
 import { Component } from '@angular/core';
 
@@ -21,7 +21,11 @@ export const routes: Routes = [
             }],
         data: {
             message: 'Hello World!'
-        }
+        },
+        resolve: {
+            myWelcome: resolverName
+        },
+        title: resolveTitle
     }, {
         path: 'component2',
         component: MyComponent2Component
