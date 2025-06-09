@@ -1,0 +1,31 @@
+2025-05-30 21:15:27.086 +05:30 [INF] Now listening on: https://localhost:7134
+2025-05-30 21:15:27.504 +05:30 [INF] Now listening on: http://localhost:5193
+2025-05-30 21:15:27.907 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-30 21:15:29.611 +05:30 [INF] Hosting environment: Development
+2025-05-30 21:15:30.323 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-05-30 21:17:17.309 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-05-30 21:17:17.481 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-05-30 21:17:17.531 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-05-30 21:17:40.012 +05:30 [INF] Executed DbCommand (245ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-05-30 21:17:40.373 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 21:17:40.434 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 22891.0408ms
+2025-05-30 21:17:40.449 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-05-30 21:17:44.307 +05:30 [ERR] Unhandled exception: Type 'CityInfo.API.Entities.City' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+2025-05-30 21:17:44.344 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 500 null application/xml; charset=utf-8 27060.5251ms
+2025-05-30 21:17:51.207 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-05-30 21:17:51.217 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-05-30 21:17:51.220 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-05-30 21:17:58.037 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-05-30 21:18:11.462 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-30 21:18:11.487 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 20260.3221ms
+2025-05-30 21:18:11.517 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'

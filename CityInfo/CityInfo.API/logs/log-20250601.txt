@@ -1,0 +1,673 @@
+2025-06-01 13:31:08.289 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 13:31:08.508 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 13:31:08.817 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 13:31:08.852 +05:30 [INF] Hosting environment: Development
+2025-06-01 13:31:08.855 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 13:35:30.063 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/ - null null
+2025-06-01 13:35:30.773 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/ - 301 0 null 720.7126ms
+2025-06-01 13:35:30.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.html - null null
+2025-06-01 13:35:31.124 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.html - 200 null text/html;charset=utf-8 329.0918ms
+2025-06-01 13:35:31.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger-ui.css - null null
+2025-06-01 13:35:31.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger-ui-bundle.js - null null
+2025-06-01 13:35:31.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.css - null null
+2025-06-01 13:35:31.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger-ui-standalone-preset.js - null null
+2025-06-01 13:35:31.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.js - null null
+2025-06-01 13:35:31.331 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-06-01 13:35:31.337 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.js - 200 null application/javascript;charset=utf-8 38.9023ms
+2025-06-01 13:35:31.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.css - 200 202 text/css 93.9564ms
+2025-06-01 13:35:31.346 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 13:35:31.347 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_vs/browserLink - null null
+2025-06-01 13:35:31.391 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-01 13:35:31.454 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-01 13:35:31.476 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 129.903ms
+2025-06-01 13:35:31.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger-ui-standalone-preset.js - 200 229223 text/javascript 232.1952ms
+2025-06-01 13:35:31.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger-ui.css - 200 154949 text/css 241.8031ms
+2025-06-01 13:35:31.626 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-01 13:35:31.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 371.4783ms
+2025-06-01 13:35:31.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger-ui-bundle.js - 200 1466908 text/javascript 582.9854ms
+2025-06-01 13:35:32.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - null null
+2025-06-01 13:35:32.338 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/favicon-32x32.png - null null
+2025-06-01 13:35:32.956 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-01 13:35:32.965 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/favicon-32x32.png - 200 628 image/png 626.9104ms
+2025-06-01 13:35:32.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 705.2279ms
+2025-06-01 15:05:48.843 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 15:05:48.922 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 15:05:49.189 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 15:05:49.443 +05:30 [INF] Hosting environment: Development
+2025-06-01 15:05:49.445 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 15:06:04.782 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.html - null null
+2025-06-01 15:06:05.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.html - 200 null text/html;charset=utf-8 392.6173ms
+2025-06-01 15:06:05.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 15:06:05.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_vs/browserLink - null null
+2025-06-01 15:06:05.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 74.8028ms
+2025-06-01 15:06:05.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 130.6278ms
+2025-06-01 15:06:05.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - null null
+2025-06-01 15:06:05.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.4797ms
+2025-06-01 15:06:27.821 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7134/api/authentication/authenticate - application/json-patch+json 49
+2025-06-01 15:06:27.922 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:06:27.970 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 15:07:21.878 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 15:07:21.937 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 53957.1655ms
+2025-06-01 15:07:21.941 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:07:21.947 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7134/api/authentication/authenticate - 200 48 application/json; charset=utf-8 54125.6983ms
+2025-06-01 15:44:08.738 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 15:44:09.422 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 15:44:09.428 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 15:44:09.547 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 15:44:09.559 +05:30 [INF] Hosting environment: Development
+2025-06-01 15:44:09.572 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 15:44:18.109 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.html - null null
+2025-06-01 15:44:18.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 15:44:18.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.html - 200 null text/html;charset=utf-8 386.3527ms
+2025-06-01 15:44:18.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_vs/browserLink - null null
+2025-06-01 15:44:18.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 41.5753ms
+2025-06-01 15:44:18.655 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.8548ms
+2025-06-01 15:44:18.901 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - null null
+2025-06-01 15:44:18.978 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.0932ms
+2025-06-01 15:45:35.801 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/api/cities?name=Paris - null null
+2025-06-01 15:45:37.418 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 15:45:37.424 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 15:45:37.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/api/cities?name=Paris - 401 0 null 1627.8013ms
+2025-06-01 15:47:05.495 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 15:47:05.507 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 15:47:05.509 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 15:47:05.532 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 36.4535ms
+2025-06-01 15:47:28.703 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 114
+2025-06-01 15:47:28.717 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:47:28.760 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 15:47:41.634 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 12856.7586ms
+2025-06-01 15:47:41.641 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:47:44.106 +05:30 [ERR] Unhandled exception: Invalid username or password.
+2025-06-01 15:47:44.114 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 500 null null 15411.3016ms
+2025-06-01 15:49:01.235 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate?username=test&password=test123 - application/json 114
+2025-06-01 15:49:01.243 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:49:01.246 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 15:49:34.624 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 33374.7169ms
+2025-06-01 15:49:34.640 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:49:37.133 +05:30 [ERR] Unhandled exception: Invalid username or password.
+2025-06-01 15:49:37.137 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate?username=test&password=test123 - 500 null null 35902.8147ms
+2025-06-01 15:50:12.515 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 15:50:12.524 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:50:12.529 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 15:50:17.344 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 15:50:17.407 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 4873.714ms
+2025-06-01 15:50:17.423 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 15:50:17.425 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 48 application/json; charset=utf-8 4909.9262ms
+2025-06-01 16:13:41.039 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 16:13:41.050 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:13:41.057 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:13:48.691 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType7`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:13:48.711 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 7650.6199ms
+2025-06-01 16:13:48.716 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:13:48.720 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 7680.485ms
+2025-06-01 16:14:41.772 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:14:41.849 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:14:41.907 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:14:41.916 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:14:41.922 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:14:41.925 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 153.0203ms
+2025-06-01 16:14:46.487 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:14:46.496 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:14:46.500 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:14:46.502 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:14:46.504 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:14:46.507 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 19.0567ms
+2025-06-01 16:15:09.953 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:15:09.966 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:15:09.981 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:15:09.983 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:15:09.989 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:15:09.992 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 39.3136ms
+2025-06-01 16:15:20.262 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 16:15:20.271 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:15:20.273 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:15:20.277 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType7`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:15:20.280 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 3.9936ms
+2025-06-01 16:15:20.288 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:15:20.290 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 28.64ms
+2025-06-01 16:15:46.350 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:15:46.364 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:15:46.369 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:15:46.371 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:15:46.373 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:15:46.378 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 27.9329ms
+2025-06-01 16:16:08.308 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:16:08.323 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:16:08.327 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:16:08.329 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:16:08.331 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:16:08.334 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 25.9728ms
+2025-06-01 16:16:22.991 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:16:23.009 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:16:23.013 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:16:23.015 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:16:23.021 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:16:23.023 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 32.0838ms
+2025-06-01 16:16:24.995 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:16:25.030 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:16:25.043 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:16:25.046 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:16:25.055 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:16:25.062 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 66.2605ms
+2025-06-01 16:17:23.942 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 16:17:24.666 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 16:17:24.677 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 16:17:24.892 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 16:17:25.038 +05:30 [INF] Hosting environment: Development
+2025-06-01 16:17:25.041 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 16:17:25.818 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 16:17:26.154 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:17:26.204 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:17:26.597 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:17:26.696 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 461.5448ms
+2025-06-01 16:17:26.708 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:17:26.720 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 916.3543ms
+2025-06-01 16:18:00.392 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:18:00.485 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:18:00.521 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:18:00.535 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:18:00.544 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:18:00.549 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 157.1236ms
+2025-06-01 16:18:22.009 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:18:22.038 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:18:22.043 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:18:22.048 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:18:22.050 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:18:22.054 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 45.7579ms
+2025-06-01 16:20:02.387 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:20:02.394 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:20:02.398 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:20:02.404 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:20:02.406 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:20:02.409 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 21.726ms
+2025-06-01 16:21:07.438 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:21:07.444 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:21:07.449 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:21:07.452 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:21:07.454 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:21:07.457 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 19.2575ms
+2025-06-01 16:23:17.505 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:23:17.512 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:23:17.515 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:23:17.517 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:23:17.520 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:23:17.523 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 18.0117ms
+2025-06-01 16:23:22.425 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:23:22.457 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:23:22.461 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:23:22.464 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:23:22.467 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:23:22.470 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 45.2808ms
+2025-06-01 16:23:50.490 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:23:50.498 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:23:50.507 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:23:50.513 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:23:50.516 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:23:50.523 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 37.6195ms
+2025-06-01 16:24:15.764 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.html - null null
+2025-06-01 16:24:16.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.html - 200 null text/html;charset=utf-8 318.5559ms
+2025-06-01 16:24:16.129 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_vs/browserLink - null null
+2025-06-01 16:24:16.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 16:24:16.178 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 56.1883ms
+2025-06-01 16:24:16.258 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.3909ms
+2025-06-01 16:24:16.536 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - null null
+2025-06-01 16:24:16.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.0698ms
+2025-06-01 16:24:33.838 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7134/api/authentication/authenticate - application/json-patch+json 49
+2025-06-01 16:24:33.853 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:24:33.857 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:24:38.991 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:24:38.994 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 5132.691ms
+2025-06-01 16:24:38.997 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:24:39.000 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 5162.2905ms
+2025-06-01 16:25:40.188 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/api/cities?name=dsafafs - null null
+2025-06-01 16:25:40.211 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:25:40.214 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:25:40.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/api/cities?name=dsafafs - 401 0 null 29.533ms
+2025-06-01 16:26:19.618 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:26:19.625 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-01 16:26:19.631 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-06-01 16:26:19.634 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:26:19.636 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:26:19.638 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 19.973ms
+2025-06-01 16:29:26.123 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 16:29:26.641 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 16:29:26.647 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 16:29:26.800 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 16:29:26.875 +05:30 [INF] Hosting environment: Development
+2025-06-01 16:29:27.017 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 16:29:38.762 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 16:29:38.899 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:29:38.925 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:29:39.207 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:29:39.291 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 342.7442ms
+2025-06-01 16:29:39.306 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:29:39.313 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 561.0518ms
+2025-06-01 16:29:57.977 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:29:58.071 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:29:58.087 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 16:30:09.106 +05:30 [INF] Executed DbCommand (190ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-06-01 16:30:09.449 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-01 16:30:09.481 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 11390.3985ms
+2025-06-01 16:30:09.486 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:33:24.284 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 16:33:24.827 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 16:33:24.831 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 16:33:24.970 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 16:33:25.038 +05:30 [INF] Hosting environment: Development
+2025-06-01 16:33:25.052 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 16:33:36.174 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 16:33:36.360 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:33:36.395 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:33:36.626 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:33:36.761 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 352.3941ms
+2025-06-01 16:33:36.790 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:33:36.801 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 638.1007ms
+2025-06-01 16:33:42.325 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:33:42.408 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:33:42.437 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 16:33:49.582 +05:30 [INF] Executed DbCommand (107ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-06-01 16:33:54.482 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-01 16:33:54.549 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 12106.7331ms
+2025-06-01 16:33:54.557 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:34:35.672 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 16:34:36.134 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 16:34:36.138 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 16:34:36.644 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 16:34:36.668 +05:30 [INF] Hosting environment: Development
+2025-06-01 16:34:36.671 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 16:35:09.491 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:35:09.777 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:35:09.811 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 16:35:16.103 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-06-01 16:35:16.368 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-01 16:35:16.458 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 6632.4379ms
+2025-06-01 16:35:16.469 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:43:25.417 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 16:43:26.011 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 16:43:26.014 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 16:43:26.428 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 16:43:26.431 +05:30 [INF] Hosting environment: Development
+2025-06-01 16:43:26.433 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 16:43:32.566 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:43:32.837 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:43:32.873 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 16:43:39.025 +05:30 [INF] Executed DbCommand (104ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-06-01 16:43:39.535 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-01 16:43:39.604 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 6719.8645ms
+2025-06-01 16:43:39.637 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:43:39.664 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 200 496 application/xml; charset=utf-8 7105.148ms
+2025-06-01 16:43:53.797 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:43:53.812 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:43:53.816 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 16:43:55.444 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-06-01 16:43:55.455 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-01 16:43:55.668 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 1846.7156ms
+2025-06-01 16:43:55.676 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:43:55.705 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 200 147 application/json; charset=utf-8 1908.4934ms
+2025-06-01 16:44:18.145 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:44:18.163 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:44:18.173 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:44:18.176 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 31.1976ms
+2025-06-01 16:51:50.935 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 16:51:51.990 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 16:51:51.993 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 16:51:52.174 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 16:51:52.237 +05:30 [INF] Hosting environment: Development
+2025-06-01 16:51:52.240 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 16:52:06.770 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:52:06.914 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:52:06.922 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:52:06.930 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 168.4365ms
+2025-06-01 16:52:11.590 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:52:11.604 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 16:52:11.607 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 16:52:11.610 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 401 0 null 20.7425ms
+2025-06-01 16:52:16.164 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 16:52:16.174 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:52:16.205 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 16:52:16.590 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 16:52:16.673 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 447.0588ms
+2025-06-01 16:52:16.685 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 16:52:16.689 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 524.711ms
+2025-06-01 16:52:32.442 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 16:52:32.516 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 16:52:32.529 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 19:27:29.598 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 19:27:30.453 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 19:27:30.484 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 19:27:30.668 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 19:27:30.707 +05:30 [INF] Hosting environment: Development
+2025-06-01 19:27:30.710 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 19:27:43.645 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 19:27:43.858 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 19:27:43.885 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 19:27:44.186 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 19:27:44.261 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 363.1985ms
+2025-06-01 19:27:44.270 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 19:27:44.275 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 364 application/json; charset=utf-8 644.7469ms
+2025-06-01 19:28:01.426 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - null null
+2025-06-01 19:28:01.546 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 19:28:01.562 +05:30 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCities(System.String) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2025-06-01 19:28:14.653 +05:30 [INF] Executed DbCommand (136ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [Cities] AS [c]
+LEFT JOIN [PointsOfInterest] AS [p] ON [c].[Id] = [p].[CityId]
+WHERE [c].[Name] = @__name_0
+ORDER BY [c].[Id]
+2025-06-01 19:28:14.893 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Entities.City, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-01 19:28:14.934 +05:30 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 13364.264ms
+2025-06-01 19:28:14.954 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2025-06-01 19:28:15.020 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities?name=Antwerp - 200 147 application/json; charset=utf-8 13594.6965ms
+2025-06-01 19:28:43.876 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointofinterest/2 - null null
+2025-06-01 19:28:43.902 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointofinterest/2 - 404 0 null 26.4722ms
+2025-06-01 19:28:43.912 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7134/api/cities/12/pointofinterest/2, Response status code: 404
+2025-06-01 19:29:00.307 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointofinterest/2 - null null
+2025-06-01 19:29:00.316 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointofinterest/2 - 404 0 null 9.7802ms
+2025-06-01 19:29:00.324 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7134/api/cities/12/pointofinterest/2, Response status code: 404
+2025-06-01 19:29:48.983 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 19:29:49.052 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:29:49.078 +05:30 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2025-06-01 19:29:56.498 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-06-01 19:29:56.529 +05:30 [INF] Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) in 7444.3405ms
+2025-06-01 19:29:56.533 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:29:56.542 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 404 227 application/problem+json; charset=utf-8 7559.6483ms
+2025-06-01 19:30:06.075 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 19:30:06.099 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:30:06.109 +05:30 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2025-06-01 19:30:19.445 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-06-01 19:30:19.463 +05:30 [INF] Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) in 13345.9673ms
+2025-06-01 19:30:19.629 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:30:19.637 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 404 227 application/problem+json; charset=utf-8 13562.0479ms
+2025-06-01 19:31:07.132 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/4/pointsofinterest - null null
+2025-06-01 19:31:07.141 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:31:07.150 +05:30 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPointOfInterest(Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2025-06-01 19:32:37.827 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 19:32:38.678 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 19:32:38.683 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 19:32:38.841 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 19:32:38.922 +05:30 [INF] Hosting environment: Development
+2025-06-01 19:32:38.924 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 19:33:11.102 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/4/pointsofinterest - null null
+2025-06-01 19:33:11.483 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:33:11.542 +05:30 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPointOfInterest(Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2025-06-01 19:33:34.236 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST(0 AS bit)
+2025-06-01 19:33:34.299 +05:30 [INF] City with id 4 doesn't match the authenticated user's city id 
+2025-06-01 19:33:34.310 +05:30 [INF] Executing ForbidResult with authentication schemes ([]).
+2025-06-01 19:33:34.318 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 19:33:34.348 +05:30 [INF] Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) in 22771.0154ms
+2025-06-01 19:33:34.360 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 19:33:34.412 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/4/pointsofinterest - 403 0 null 23338.6857ms
+2025-06-01 19:49:15.107 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 19:49:15.816 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 19:49:15.821 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 19:49:15.997 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 19:49:16.055 +05:30 [INF] Hosting environment: Development
+2025-06-01 19:49:16.058 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 19:59:10.882 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 19:59:11.393 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 19:59:11.396 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 19:59:11.818 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 19:59:11.821 +05:30 [INF] Hosting environment: Development
+2025-06-01 19:59:11.823 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 19:59:36.977 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 19:59:37.151 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 19:59:37.184 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 19:59:37.573 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 19:59:37.663 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 467.5173ms
+2025-06-01 19:59:37.672 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 19:59:37.678 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 394 application/json; charset=utf-8 710.9877ms
+2025-06-01 20:00:29.482 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - null null
+2025-06-01 20:00:29.637 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:00:29.644 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:00:29.648 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - 403 0 null 165.2437ms
+2025-06-01 20:00:54.862 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - null null
+2025-06-01 20:00:54.879 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:00:54.882 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:00:54.885 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - 403 0 null 23.3156ms
+2025-06-01 20:01:06.605 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - null null
+2025-06-01 20:01:06.922 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:01:06.954 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:01:06.956 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - 403 0 null 350.7488ms
+2025-06-01 20:01:17.181 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 20:01:18.100 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 20:01:18.160 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 20:01:18.394 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 20:01:18.437 +05:30 [INF] Hosting environment: Development
+2025-06-01 20:01:18.500 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 20:01:28.187 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - null null
+2025-06-01 20:01:28.594 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:01:28.601 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:01:28.620 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - 403 0 null 441.8612ms
+2025-06-01 20:01:39.797 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - null null
+2025-06-01 20:01:39.815 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:01:39.818 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:01:39.825 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - 403 0 null 28.2447ms
+2025-06-01 20:02:01.052 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - null null
+2025-06-01 20:02:01.064 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:02:01.067 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:02:01.070 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest - 403 0 null 18.2973ms
+2025-06-01 20:02:08.977 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/4/pointsofinterest - null null
+2025-06-01 20:02:08.982 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:02:08.984 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:02:08.986 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/4/pointsofinterest - 403 0 null 9.6169ms
+2025-06-01 20:02:26.649 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 20:02:26.676 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 20:02:26.713 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 20:02:26.965 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 20:02:27.053 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 324.8759ms
+2025-06-01 20:02:27.057 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 20:02:27.060 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 394 application/json; charset=utf-8 411.1904ms
+2025-06-01 20:02:48.207 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointofinterest/2 - null null
+2025-06-01 20:02:48.218 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointofinterest/2 - 404 0 null 13.2775ms
+2025-06-01 20:02:48.227 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7134/api/cities/12/pointofinterest/2, Response status code: 404
+2025-06-01 20:03:18.649 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:03:18.655 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:03:18.659 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:03:18.663 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 403 0 null 14.7576ms
+2025-06-01 20:03:50.364 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:03:50.373 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:03:50.374 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:03:50.377 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 403 0 null 20.981ms
+2025-06-01 20:03:57.150 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.html - null null
+2025-06-01 20:03:57.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.html - 200 null text/html;charset=utf-8 655.9444ms
+2025-06-01 20:03:57.854 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 20:03:57.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_vs/browserLink - null null
+2025-06-01 20:03:57.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 45.8254ms
+2025-06-01 20:03:58.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 226.8453ms
+2025-06-01 20:03:58.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - null null
+2025-06-01 20:03:58.358 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.5326ms
+2025-06-01 20:04:10.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/api/cities?name=PAris - null null
+2025-06-01 20:04:10.237 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-01 20:04:10.246 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 20:04:10.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/api/cities?name=PAris - 401 0 null 28.8756ms
+2025-06-01 20:04:37.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/api/cities/1/pointsofinterest/2 - null null
+2025-06-01 20:04:37.746 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:04:37.749 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 20:04:37.752 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/api/cities/1/pointsofinterest/2 - 401 0 null 61.4516ms
+2025-06-01 20:05:02.186 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:05:02.194 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:05:02.196 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:05:02.200 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 403 0 null 13.7292ms
+2025-06-01 20:05:59.124 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 20:05:59.509 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 20:05:59.518 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 20:05:59.854 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 20:05:59.857 +05:30 [INF] Hosting environment: Development
+2025-06-01 20:05:59.860 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 20:06:33.495 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - application/json 56
+2025-06-01 20:06:35.825 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 20:06:35.857 +05:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(CityInfo.API.Controllers.AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2025-06-01 20:06:36.241 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-01 20:06:36.327 +05:30 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 458.6245ms
+2025-06-01 20:06:36.337 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2025-06-01 20:06:36.343 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7134/api/authentication/authenticate - 200 394 application/json; charset=utf-8 2865.0437ms
+2025-06-01 20:06:55.146 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:06:55.394 +05:30 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-06-01 20:06:55.493 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-06-01 20:06:55.512 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:06:55.532 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-01 20:06:55.539 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 401 0 null 393.1513ms
+2025-06-01 20:07:19.195 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:07:19.297 +05:30 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=city and Claim.Value is one of the following values: (Paris)
+2025-06-01 20:07:19.302 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-01 20:07:19.307 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 403 0 null 112.3817ms
+2025-06-01 20:07:47.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/index.html - null null
+2025-06-01 20:07:47.968 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/index.html - 200 null text/html;charset=utf-8 456.6832ms
+2025-06-01 20:07:48.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_vs/browserLink - null null
+2025-06-01 20:07:48.239 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 20:07:48.266 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 27.0349ms
+2025-06-01 20:07:48.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.186ms
+2025-06-01 20:07:50.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - null null
+2025-06-01 20:07:50.253 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.7923ms
+2025-06-01 20:07:51.398 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:07:51.413 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 20:07:51.427 +05:30 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2025-06-01 20:09:33.778 +05:30 [INF] User profile is available. Using 'C:\Users\arunk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 20:09:34.269 +05:30 [INF] Now listening on: https://localhost:7134
+2025-06-01 20:09:34.273 +05:30 [INF] Now listening on: http://localhost:5193
+2025-06-01 20:09:34.806 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 20:09:34.870 +05:30 [INF] Hosting environment: Development
+2025-06-01 20:09:34.872 +05:30 [INF] Content root path: D:\Programming\GithubCode\angular-projects\CityInfo\CityInfo.API
+2025-06-01 20:09:35.534 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - null null
+2025-06-01 20:09:35.894 +05:30 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 20:09:35.959 +05:30 [INF] Route matched with {action = "GetPointOfInterest", controller = "PointOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2025-06-01 20:09:52.182 +05:30 [INF] Executed DbCommand (229ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Description], [c].[Name]
+FROM [Cities] AS [c]
+WHERE [c].[Id] = @__cityId_0
+2025-06-01 20:09:52.242 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-06-01 20:09:52.403 +05:30 [INF] Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API) in 16426.9092ms
+2025-06-01 20:09:52.412 +05:30 [INF] Executed endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest (CityInfo.API)'
+2025-06-01 20:09:52.456 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7134/api/cities/12/pointsofinterest/2 - 404 227 application/problem+json; charset=utf-8 16931.9433ms
